@@ -1,0 +1,22 @@
+{
+  "name": "scrollproject",
+  "version": "1.0.0",
+  "description": "Project scroll for election my vacations",
+  "main": "scroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/scrollProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/scrollProject/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/scrollProject#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}

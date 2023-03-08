@@ -1,0 +1,240 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+* body .btnBurger {
+  display: none;
+}
+* body .menu {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+* body .menu .menuUl .menuLi {
+  display: inline;
+  margin-left: 40px;
+}
+* body .menu .menuUl .menuLi a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+* body .sectionBea {
+  height: 800px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./public/playa.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./public/playa.jpg");
+  background-size: cover;
+}
+* body .sectionBea .containerBea {
+  text-align: center;
+  width: 800px;
+}
+* body .sectionBea .containerBea .title {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+* body .sectionBea .containerBea .text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
+* body .sectionBea .containerBea .btn {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  border: solid 2px white;
+  margin-top: 30px;
+}
+* body .sectionBea .containerBea .btn a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+* body .sectionDes {
+  height: 800px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./public/arido.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./public/arido.jpg");
+  background-size: cover;
+}
+* body .sectionDes .containerDes {
+  text-align: center;
+  width: 800px;
+}
+* body .sectionDes .containerDes .title {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+* body .sectionDes .containerDes .text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
+* body .sectionDes .containerDes .btn {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  border: solid 2px white;
+  margin-top: 30px;
+}
+* body .sectionDes .containerDes .btn a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+* body .sectionNat {
+  height: 800px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./public/campo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./public/campo.jpg");
+  background-size: cover;
+}
+* body .sectionNat .containerNat {
+  text-align: center;
+  width: 800px;
+}
+* body .sectionNat .containerNat .title {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+* body .sectionNat .containerNat .text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
+* body .sectionNat .containerNat .btn {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  border: solid 2px white;
+  margin-top: 30px;
+}
+* body .sectionNat .containerNat .btn a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+* body .sectionOut {
+  height: 800px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./public/outdoor.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./public/outdoor.jpg");
+  background-size: cover;
+}
+* body .sectionOut .containerOut {
+  text-align: center;
+  width: 800px;
+}
+* body .sectionOut .containerOut .title {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+* body .sectionOut .containerOut .text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
+* body .sectionOut .containerOut .btn {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  border: solid 2px white;
+  margin-top: 30px;
+}
+* body .sectionOut .containerOut .btn a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (min-width: 200px) and (max-width: 990px) and (orientation: portrait) {
+  body .btnBurger {
+    display: block;
+    position: absolute;
+    background: transparent;
+    margin-left: 85%;
+    border: none;
+    margin-top: 10px;
+    z-index: 1;
+  }
+  body .btnBurger .aBurger .imgBurger {
+    background: transparent;
+    width: 35px;
+    height: 35px;
+  }
+  body .btnBurger .aBurger .imgBurger:hover {
+    rotate: 90deg;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  body .menu .menuUl {
+    display: none;
+  }
+}

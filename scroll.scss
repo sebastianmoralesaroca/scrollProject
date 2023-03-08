@@ -1,0 +1,131 @@
+@import "./_utilities.scss";
+* {
+    margin: 0%;
+    padding: 0%;
+
+    body {
+            .btnBurger {
+                display: none;
+                .aBurger {
+                    .imgBurger {
+                    }
+                }
+            }
+
+        .menu {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 15px;
+
+
+            .menuUl {
+
+                .menuLi {
+                    display: inline ;
+                    margin-left: 40px;
+
+                    a {
+                        text-decoration: none ;
+                        font-family: monospace ;
+                        font-size: 25px ;
+                        font-weight: 500 ;
+                        color: white ;
+                    }
+                }
+            }
+        }
+
+        .sectionBea {
+            @include sectionPrin;
+            background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)), 
+            url("./public/playa.jpg");
+            background-size: cover;
+
+            .containerBea {
+                @include containerSecond ;
+            }
+        }
+
+        .sectionDes {
+            @include sectionPrin;
+            background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)), 
+            url("./public/arido.jpg");
+            background-size: cover;
+
+            .containerDes {
+                @include containerSecond;
+
+            }
+        }
+
+        .sectionNat {
+            @include sectionPrin;
+            background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)), 
+            url("./public/campo.jpg");
+            background-size: cover;
+
+            .containerNat {
+                @include containerSecond;
+            }
+        }
+
+        .sectionOut {
+            @include sectionPrin;
+            background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)), 
+            url("./public/outdoor.jpg");
+            background-size: cover;
+
+            .containerOut {
+                @include containerSecond;
+
+            }
+        }
+    }
+}
+
+$media-small-xs: 200px;
+$media-small: 575px;
+$media-medium: 990px;
+// Media Tablet
+@media screen and (min-width: $media-small-xs) and (max-width: $media-medium) and (orientation:portrait) {
+
+    body {
+        .btnBurger {
+            display: block ;
+            position: absolute;
+            background: transparent;
+            margin-left: 85% ;
+            border: none;
+            margin-top: 10px;
+            z-index: 1;
+
+            .aBurger {
+
+                .imgBurger {
+                    background: transparent;
+                    width: 35px ;
+                    height: 35px ;
+                }
+                
+                .imgBurger:hover     {
+                    rotate: 90deg;
+                    transition: .5s;
+                }
+            }
+        }
+
+        .menu {
+            .menuUl {
+                display: none ;
+            }
+        }
+    }
+}
